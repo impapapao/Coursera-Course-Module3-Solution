@@ -32,6 +32,7 @@ body {
 #nav-list a {
     color: azure;
     text-align: center;
+    font-weight: bold;
 }
 
 #nav-list a:hover {
@@ -39,5 +40,5 @@ body {
 }
 
 #nav-list a span {
-    font-size: 1.8em;
+    font-size: 2.0em;
 }
