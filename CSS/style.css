@@ -5,7 +5,7 @@ body {
 }
 
 #header-nav {
-    background: linear-gradient(#2c3e50, #bdc3c7);
+    background: linear-gradient(#e6d3a3, #d8d174);
     background-repeat: no-repeat;
     border-radius: 0;
     border: 0;
@@ -15,7 +15,7 @@ body {
     text-shadow: 1px 1px;
     margin-top: 0;
     margin-bottom: 0;
-    color: azure;
+    color: #f2f4f3;
     
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #2c3e50;
+    border: 1px solid #91972a;
 }
 
 #nav-list {
@@ -31,13 +31,13 @@ body {
 }
 
 #nav-list a {
-    color: azure;
+    color: #f2f4f3;
     text-align: center;
     font-weight: bold;
 }
 
 #nav-list a:hover {
-    background: #2c3e50;
+    background: #b6c454;
 }
 
 #nav-list a span {
