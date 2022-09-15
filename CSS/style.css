@@ -1,3 +1,14 @@
+
+.navbar-brand h1 { /* name logo */
+    text-transform: uppercase;
+    text-shadow: 1px 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
 }
