@@ -1,14 +1,43 @@
 
+body {
+    background-color: #bdc3c7;
+    font-family: sans-serif;
+}
+
+#header-nav {
+    background: linear-gradient(#2c3e50, #bdc3c7);
+    background-repeat: no-repeat;
+    border-radius: 0;
+    border: 0;
+}
 .navbar-brand h1 { /* name logo */
     text-transform: uppercase;
     text-shadow: 1px 1px;
     margin-top: 0;
     margin-bottom: 0;
+    
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
+    border: 1px solid #2c3e50;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: azure;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #2c3e50;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
 }
