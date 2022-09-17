@@ -1,21 +1,24 @@
 
 body {
-    background-color: #bdc3c7;
-    font-family: sans-serif;
+    background-color: #dfdce3;
+    font-family: sans-serif, "montserrat";
 }
 
+/********** Header **********/
+
 #header-nav {
-    background: linear-gradient(#e6d3a3, #d8d174);
+    background-color: #fb3310;
     background-repeat: no-repeat;
     border-radius: 0;
     border: 0;
+    padding-bottom: 15px;
 }
 .navbar-brand h1 { /* name logo */
     text-transform: uppercase;
     text-shadow: 1px 1px;
     margin-top: 0;
     margin-bottom: 0;
-    color: #f2f4f3;
+    color: #f6ebf4;
     
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -23,7 +26,7 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #91972a;
+    border: 1px solid #dfdce3;
 }
 
 #nav-list {
@@ -31,35 +34,51 @@ body {
 }
 
 #nav-list a {
-    color: #f2f4f3;
+    color: #565656;
     text-align: center;
     font-weight: bold;
 }
 
 #nav-list a:hover {
-    background: #b6c454;
+    background: #efefef;
 }
 
 #nav-list a span {
     font-size: 2.0em;
 }
 
-/********** Large Device **********/
-@media (min-width: 1200px) {
+/********** End of header **********/
 
+/********** Home Page **********/
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
 }
 
-/********** Medium devices **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-
+#main-content h2 {
+    font-size: 3.0em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-/********** Small devices ***********/
-@media (min-width: 768px) and (max-width: 991px) {
-
+#main-content h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-transform: uppercase;
 }
 
-/********** Extra small devices **********/
-@media (max-width: 767px) {
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    font-size: 1em;
+    color: black;
+    background-color: #fb3310;
+    margin-bottom: 60px;
+    /*box-shadow: 0 0 80px #18580b; */
+}
 
+a {
+    text-decoration: none;
 }
